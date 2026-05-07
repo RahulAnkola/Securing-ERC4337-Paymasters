@@ -1,0 +1,32 @@
+{
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:entrypoint:sepolia": "hardhat run scripts/deployEntryPoint.ts --network sepolia",
+    "deploy:baseline:sepolia": "hardhat run scripts/deployBaselinePaymaster.ts --network sepolia",
+    "deploy:account:sepolia": "hardhat run scripts/deployBaselineAccount.ts --network sepolia",
+    "deploy:secured:sepolia": "hardhat run scripts/deploySecuredPaymaster.ts --network sepolia",
+    "deploy:mocktarget:sepolia": "hardhat run scripts/deployMockTarget.ts --network sepolia",
+    "whitelist:mocktarget:sepolia": "hardhat run scripts/whitelistSecuredPaymasterMockTarget.ts --network sepolia",
+    "send:userop:sepolia": "hardhat run scripts/sendUserOpWithBaselinePaymaster.ts --network sepolia",
+    "send:userop:secured:sepolia": "hardhat run scripts/sendUserOpWithSecuredPaymaster.ts --network sepolia",
+    "send:matrix:sepolia": "hardhat run scripts/runScenarioMatrix.ts --network sepolia",
+    "send:userop:secured:whitelist:allowed:sepolia": "hardhat run scripts/sendUserOpWithSecuredPaymasterWhitelist.ts --network sepolia",
+    "send:userop:secured:whitelist:rejected:sepolia": "REJECT_WHITELIST=1 hardhat run scripts/sendUserOpWithSecuredPaymasterWhitelist.ts --network sepolia",
+    "dashboard:install": "cd backend && npm install && cd ../frontend && npm install",
+    "dashboard:backend": "node backend/server.js",
+    "dashboard:frontend": "cd frontend && npm run dev",
+    "dashboard:build": "cd frontend && npm run build"
+  },
+  "dependencies": {
+    "@account-abstraction/contracts": "^0.8.0",
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@types/node": "^25.3.3",
+    "docx": "^9.6.1",
+    "dotenv": "^17.3.1",
+    "ethers": "^6.16.0",
+    "hardhat": "^2.22.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}

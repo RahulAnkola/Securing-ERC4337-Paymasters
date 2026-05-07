@@ -1,0 +1,29 @@
+# env
+.env
+.env.*
+
+# dependencies
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# hardhat build artifacts
+artifacts/
+cache/
+
+# typechain generated types
+typechain-types/
+
+# frontend build
+frontend/dist/
+frontend/tsconfig.tsbuildinfo
+frontend/tsconfig.node.tsbuildinfo
+frontend/vite.config.d.ts
+frontend/vite.config.js
+
+# python
+**/__pycache__/
+**/*.pyc
+
+# os
+.DS_Store

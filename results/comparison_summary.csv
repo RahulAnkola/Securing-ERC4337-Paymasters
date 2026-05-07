@@ -1,0 +1,8 @@
+Metric,80-10-10 Baseline,80-10-10 Secured,100% Valid Baseline,100% Valid Secured
+Total Drain (ETH),0.010056,0.009541,0.006905,0.011144
+Per-txn Avg (ETH),0.000101,0.000095,0.000069,0.000111
+Total Time (s),1572.82,1353.11,1320.15,1463.92
+Per-txn Latency (ms),15.73,13.53,13.20,14.64
+Success Rate (%),100,80,100,100
+Cost Delta,—,+5.1%,—,-61.4%
+Speed Delta,—,-14.0%,—,+10.9%

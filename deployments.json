@@ -1,0 +1,34 @@
+{
+  "sepolia": {
+    "EntryPoint": {
+      "address": "0xc388b22Cc99Db398e6F04a5a39e879dcC6333c5d",
+      "deployer": "0x5cF3F299D0C33865350100f3bF57C9e285Fb93D5",
+      "txHash": "0x6c6b07de95cd3dc9dc6bc742f917200798325e24068b46dd9f5ce4bdb5fb8220",
+      "blockNumber": 10417265
+    },
+    "BaselinePaymaster": {
+      "address": "0xF011e6134eC20eA4Da73e8272C14dfF00Ef61188",
+      "deployer": "0x5cF3F299D0C33865350100f3bF57C9e285Fb93D5",
+      "txHash": "0xfd560d4d5e4d00805788d29cd65080cd88f43066728fa2e3fafc11d681788f98",
+      "blockNumber": 10738625
+    },
+    "BaselineAccount": {
+      "address": "0xD4923772777916bf3867BDC6095c13bE64Be8E48",
+      "deployer": "0x5cF3F299D0C33865350100f3bF57C9e285Fb93D5",
+      "txHash": "0x9f931078ec4a35293bbed86a1ad121ad9969933dbff1456066a23f9de50316fa",
+      "blockNumber": 10417267
+    },
+    "SecuredPaymaster": {
+      "address": "0x867e56382b806DEB838e4C65a0d64C9597301185",
+      "deployer": "0x5cF3F299D0C33865350100f3bF57C9e285Fb93D5",
+      "txHash": "0x3966b0545a4a17ff23c9483e7e8e7518873ef2f5020099d29de38aec6b3dd403",
+      "blockNumber": 10738626
+    },
+    "MockTarget": {
+      "address": "0x97a9b16839d578e33F392654Ba4cF94b944d4E04",
+      "deployer": "0x5cF3F299D0C33865350100f3bF57C9e285Fb93D5",
+      "txHash": "0xb664fc91940aa539cc5e7d3f9dfba05f5a013d5123176cd5a03c34e21689448a",
+      "blockNumber": 10505256
+    }
+  }
+}
